@@ -1,0 +1,30 @@
+.tab-menu
+{
+    width: 100%;
+    background-color:darkorchid;
+}
+.tab-menu > nav > ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab-menu > nav > ul li
+{
+    display: inline-block;
+    color:#fff;
+    padding: 10px 15px;
+}
+.tab-menu > nav > ul li .tab-link
+{
+    text-decoration: none;
+    color:#fff;
+    font-size:22px;
+    padding:10.5px;
+}
+.tab-menu > nav > ul li .tab-link.active
+{
+    background-color:red;
+    color:#fff;
+}
